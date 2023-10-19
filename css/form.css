@@ -1,0 +1,44 @@
+@charset "utf-8";
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+*{margin: 0; padding: 0;}
+li{list-style-type: none;}
+
+body{
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 16px; 
+}
+#container{
+    width: 500px;
+    margin: 50px auto;
+}
+#container h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 40px;
+    text-align: center; 
+}
+form fieldset{
+    margin-bottom: 25px;
+}
+form legend{
+    font-weight: 500;
+    color: #36327e;
+}
+form label{margin-left: 15px;}
+form p{margin: 15px;}
+label.reg{
+    font-weight: 500;
+    color: #222;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+form ul{
+    margin: 20px 0;
+    font-size: 15px;
+}
+fieldset input{ margin-bottom: 20px;}
+button{width: 100%; padding: 10px 20px; cursor: pointer; border: none;}
+button:hover{background: #111; color: #fff;}
